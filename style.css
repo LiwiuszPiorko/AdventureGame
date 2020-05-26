@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.container{
+    width: 60%;
+    height: 60%;
+    background-image: url(img/papirus.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courgette', cursive;
+    font-size: 2vw;
+    text-align: justify;
+    padding: .5vw;
+    border-radius: 1.5vw;
+}
+
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: .4vw;
+    margin: 1vw;
+}
+.btn{
+    padding: .5vw;
+    font-size: 1.5vw;
+    background-color: black;
+    font-family: 'Courgette', cursive;
+    color: #6e3d0f;
+    border: .2vw solid #6e3d0f ;
+    outline: none;
+}
+
+.btn:hover{
+    border-color: goldenrod;
+}
